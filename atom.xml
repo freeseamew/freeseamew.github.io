@@ -136,9 +136,9 @@
     <link href="http://freeseamew.github.io/2017/07/04/meteor-account-tutorial-4/"/>
     <id>http://freeseamew.github.io/2017/07/04/meteor-account-tutorial-4/</id>
     <published>2017-07-03T15:44:53.000Z</published>
-    <updated>2017-07-04T02:42:44.000Z</updated>
+    <updated>2017-07-04T02:49:28.000Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="7-페이지-효과"><a href="#7-페이지-효과" class="headerlink" title="7. 페이지 효과"></a>7. 페이지 효과</h3><p>Meteor 인증(account) 관련 강좌를 더 진행하기 전에 현재만들어진 기능을 조금 보완해 보도록 하겠습니다.<br>router로 원하는 페이지로 이동이 되고 있지만, 좀 더 있어보이게(?) 화면전환 효과를 넣어보겠고, 또 메일발송 때 화면이 정지한것 처럼 몇초간 아무런 액션이 없는 부분에 로딩효과를 넣어보도록 하겠습니다. 사실 이런 부분들은 꼭 있어야 하는 부분은 아니지만, 먼가 앱의 완성도를 높이기위해서는 적용해두는 것이 좋은 것도 사실일 것입니다.<br>강좌 중간에 이런 효과적인 부분을 넣는 이유는 앞으로 남은 부분에도 위의 효과 관련 기능은 계속해서 들어갈 것이기 때문에 여기서 미리 작성하는 것이 소스 코드를 2번 고치지 않게 될 것 같아서 입니다. </p>
+    <content type="html"><![CDATA[<h3 id="7-화면전환-효과"><a href="#7-화면전환-효과" class="headerlink" title="7. 화면전환 효과"></a>7. 화면전환 효과</h3><p>Meteor 인증(account) 관련 강좌를 더 진행하기 전에 현재만들어진 기능을 조금 보완해 보도록 하겠습니다.<br>router로 원하는 페이지로 이동이 되고 있지만, 좀 더 있어보이게(?) 화면전환 효과를 넣어보겠고, 또 메일발송 때 화면이 정지한것 처럼 몇초간 아무런 액션이 없는 부분에 로딩효과를 넣어보도록 하겠습니다. 사실 이런 부분들은 꼭 있어야 하는 부분은 아니지만, 먼가 앱의 완성도를 높이기위해서는 적용해두는 것이 좋은 것도 사실일 것입니다.<br>강좌 중간에 이런 효과적인 부분을 넣는 이유는 앞으로 남은 부분에도 위의 효과 관련 기능은 계속해서 들어갈 것이기 때문에 여기서 미리 작성하는 것이 소스 코드를 2번 고치지 않게 될 것 같아서 입니다. </p>
 <hr>
 <h4 id="7-1-애니메이션-효과"><a href="#7-1-애니메이션-효과" class="headerlink" title="7.1 애니메이션 효과"></a>7.1 애니메이션 효과</h4><p>일단 다음 패키지를 설치해주세요. 이 패키지는 Meteor에서 다양한 애니메이션 효과를 낼 수 있도록 해주는 패키지 입니다.</p>
 <blockquote>
@@ -185,7 +185,7 @@
     
     <summary type="html">
     
-      &lt;h3 id=&quot;7-페이지-효과&quot;&gt;&lt;a href=&quot;#7-페이지-효과&quot; class=&quot;headerlink&quot; title=&quot;7. 페이지 효과&quot;&gt;&lt;/a&gt;7. 페이지 효과&lt;/h3&gt;&lt;p&gt;Meteor 인증(account) 관련 강좌를 더 진행하기 전에 현재만들어진 기
+      &lt;h3 id=&quot;7-화면전환-효과&quot;&gt;&lt;a href=&quot;#7-화면전환-효과&quot; class=&quot;headerlink&quot; title=&quot;7. 화면전환 효과&quot;&gt;&lt;/a&gt;7. 화면전환 효과&lt;/h3&gt;&lt;p&gt;Meteor 인증(account) 관련 강좌를 더 진행하기 전에 현재만들
     
     </summary>
     
